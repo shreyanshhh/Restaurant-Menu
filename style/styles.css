@@ -46,3 +46,8 @@ hr {
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
 }
+.img--domain-analysis {
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
