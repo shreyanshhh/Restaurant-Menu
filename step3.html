@@ -1,0 +1,105 @@
+<html>
+  <head>
+    <title>CS615 - Project Group 4</title>
+    <link rel="stylesheet" href="./style/styles.css" />
+  </head>
+
+  <body>
+    <div class="site-container">
+      <a href="./index.html">
+        <h2>Preemptive warning to prevent food allergy</h2>
+      </a>
+      <div class="storyboard-kunal">
+        <div class="title collapsible">
+          <h3>Storyboard Kunal</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img
+              src="./img/storyboard-kunal-1.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+          <p>
+            <img
+              src="./img/storyboard-kunal-2.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+        </div>
+      </div>
+      <div class="storyboard-shreyansh">
+        <div class="title collapsible">
+          <h3>Storyboard Shreyansh</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img
+              src="./img/storyboard-shreyansh-1.png"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+          <p>
+            <img
+              src="./img/storyboard-shreyansh-2.png"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+        </div>
+      </div>
+      <div class="storyboard-qudseen">
+        <div class="title collapsible">
+          <h3>Storyboard Qudseen</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img
+              src="./img/storyboard-qudseen-1.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+          <p>
+            <img
+              src="./img/storyboard-qudseen-2.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+        </div>
+      </div>
+      <div class="storyboard-andy">
+        <div class="title collapsible">
+          <h3>Storyboard Andy</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img
+              src="./img/storyboard-andy.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="./index.html"><h3 class="footer">Home</h3></a>
+    </div>
+
+    <script>
+      var collapsible = document.getElementsByClassName("collapsible");
+      for (var i = 0; i < collapsible.length; i++) {
+        collapsible[i].addEventListener("click", function () {
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) content.style.maxHeight = null;
+          else content.style.maxHeight = content.scrollHeight + "px";
+        });
+      }
+    </script>
+  </body>
+</html>
