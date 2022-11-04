@@ -1,234 +1,225 @@
 <html>
-	<head>
-		<title>CS615 - Project Group 4</title>
-		<link
-			rel="stylesheet"
-			href="./style/styles.css"
-		/>
-	</head>
+  <head>
+    <title>CS615 - Project Group 4</title>
+    <link rel="stylesheet" href="./style/styles.css" />
+  </head>
 
-	<body>
-		<div class="site-container">
-			<a href="./index.html">
-				<h2>Preemptive warning to prevent food allergy</h2>
-			</a>
-			<div class="user-analysis">
-				<div class="title collapsible">
-					<h3>User Analysis</h3>
-				</div>
-				<div class="content">
-					<p>
-						<img
-							src="./img/user-analysis--persona-greg.png"
-							height="500"
-						/>
-					</p>
-					<h4>User class - Restaurant app user</h4>
-					Following are the conclusions drawn from restaurant app user class
-					<ul>
-						<li>
-							One of the main concern of restaurant app user is that if he
-							orders allergic food by accident, there is no warning given.
-						</li>
-						<li>
-							Many user, in their busy lifestyle, accidentally add dish to the
-							cart which contains certain ingredients that they are allergic to.
-						</li>
-						<li>
-							If user eats this dish, it could lead to food allergy. If they
-							don't eat it then it causes food wastage.
-						</li>
-						<li>
-							Another major concern is that user is not shown all the
-							ingredients of the dish in the application.
-						</li>
-						<li>
-							If user is shown ingredients then it help user in better judging
-							what to order and what to not.
-						</li>
-					</ul>
-					<p>
-						<img
-							src="./img/user-analysis--persona-julia.png"
-							height="500"
-						/>
-					</p>
-					<h4>User class - Restaurant owner</h4>
-					Following are the conclusions drawn from restaurant owner class
-					<ul>
-						<li>
-							One of the main concern of restaurant owner is that sometimes
-							customers accidentally order allergens.
-						</li>
-						<li>
-							Accidentally ordering allergic food may lead to bad customer
-							experience, and leave a bad review for restaurant.
-						</li>
-						<li>
-							If customer refuses to accept accidentally placed order then it
-							causes food wastage.
-						</li>
-						<li>
-							Another major concern is that restaurant owner can not add all
-							ingredients of the dish in application.
-						</li>
-						<li>
-							If customer is shown ingredients then it will help in preventing
-							accidentally placed allergic orders.
-						</li>
-					</ul>
-				</div>
-			</div>
-			<div class="task-analysis">
-				<div class="title collapsible">
-					<h3>Task Analysis</h3>
-				</div>
-				<div class="content">
-					<ul class="text-justify">
-						To create new user profile by app user:
-						<ul>
-							<li>User enters Email-Address.</li>
-							<li>User enters Name.</li>
-							<li>User enters Age.</li>
-							<li>User enters Allergens from predefined list.</li>
-							<li>User enters Password.</li>
-							<li>User clicks on create profile icon.</li>
-						</ul>
-						<br />
-						To add new food item and its ingredients by owner:
-						<ul>
-							<li>User selects the category of food item.</li>
-							<li>
-								User clicks on add food item.
-								<ul>
-									<li>User clicks on add ingredients icon.</li>
-									<li>User clicks on finish.</li>
-								</ul>
-							</li>
-							<li>User can add more food items if he wishes.</li>
-						</ul>
-						<br />
-						To find food by app user:
-						<ul>
-							<li>
-								User checks it is his/her lunch or dinner time and plans to
-								order.
-								<ul>
-									<li>
-										User checks the notification on mobile phone from app to
-										initiate his order.
-									</li>
-								</ul>
-							</li>
-							<li>
-								Open the food ordering App.
-								<ul>
-									<li>Unlock the mobile phone</li>
-									<li>Open food delivery application.</li>
-								</ul>
-							</li>
-							<li>
-								User checks different food options.
-								<ul>
-									<li>User search for food using search bar.</li>
-									<li>
-										User finds different available restaurants for searched
-										food.
-									</li>
-									<li>User selects the restaurant.</li>
-									<li>
-										User finds the food he wants to order and clicks on add
-										icon.
-									</li>
-								</ul>
-							</li>
-							<li>
-								User checks ingredients in food.
-								<ul>
-									<li>User clicks on food item.</li>
-									<li>Clicks on ingredients icon.</li>
-								</ul>
-							</li>
-							<li>
-								User finds perfect food for his meal after analysis of
-								ingredients of the food he is ordering.
-							</li>
-						</ul>
-						<br />
-						To Place an order after finding Restaurant:
-						<ul>
-							<li>User chooses food from the Menu.</li>
-							<li>
-								Click on add icon.
-								<ul>
-									<li>
-										User can see ingredients by clicking on ingredients button.
-									</li>
-									<li>
-										Now if the food does not contain ingredients user is
-										allergic to it adds it directly to cart.
-									</li>
-									<li>
-										If it contains the ingredients user is allergic then he/she
-										is asked to ignore or order food.
-									</li>
-								</ul>
-							</li>
-							<li>User enters the quantity to order.</li>
-							<li>User can add more food if he wants to order.</li>
-							<li>
-								User select desired type of delivery.
-								<ul>
-									<li>To deliver instantly by paying high delivery charge</li>
-									<li>For standard delivery.</li>
-								</ul>
-							</li>
-							<li>User sees different payment options suitable to him.</li>
-							<li>User sees estimated time of delivery.</li>
-						</ul>
-						<br />
-						To monitor activity of placed order:
-						<ul>
-							<li>Click on Orders page in application.</li>
-							<li>User checks the valet assigned to them.</li>
-							<li>User sees contact details of the valet when assigned</li>
-							<li>
-								User checks for Estimated time of delivery while it keeps
-								updating continuously.
-							</li>
-						</ul>
-					</ul>
-				</div>
-			</div>
-			<div class="domain-analysis">
-				<div class="title collapsible">
-					<h3>Domain Analysis</h3>
-				</div>
-				<div class="content">
-					<ul class="text-justify">
-						<p>
-							<img
-								src="./img/Domain Analysis.png"
-								class="img--domain-analysis"
-							/>
-						</p>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div>
-			<a href="./index.html"><h3 class="footer">Home</h3></a>
-		</div>
+  <body>
+    <div class="site-container">
+      <a href="./index.html">
+        <h2>Preemptive warning to prevent food allergy</h2>
+      </a>
+      <div class="user-analysis">
+        <div class="title collapsible">
+          <h3>User Analysis</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img src="./img/user-analysis--persona-greg.png" height="500" />
+          </p>
+          <h4>User class - Restaurant app user</h4>
+          Following are the conclusions drawn from restaurant app user class
+          <ul>
+            <li>
+              One of the main concern of restaurant app user is that if he
+              orders allergic food by accident, there is no warning given.
+            </li>
+            <li>
+              Many user, in their busy lifestyle, accidentally add dish to the
+              cart which contains certain ingredients that they are allergic to.
+            </li>
+            <li>
+              If user eats this dish, it could lead to food allergy. If they
+              don't eat it then it causes food wastage.
+            </li>
+            <li>
+              Another major concern is that user is not shown all the
+              ingredients of the dish in the application.
+            </li>
+            <li>
+              If user is shown ingredients then it help user in better judging
+              what to order and what to not.
+            </li>
+          </ul>
+          <p>
+            <img src="./img/user-analysis--persona-julia.png" height="500" />
+          </p>
+          <h4>User class - Restaurant owner</h4>
+          Following are the conclusions drawn from restaurant owner class
+          <ul>
+            <li>
+              One of the main concern of restaurant owner is that sometimes
+              customers accidentally order allergens.
+            </li>
+            <li>
+              Accidentally ordering allergic food may lead to bad customer
+              experience, and leave a bad review for restaurant.
+            </li>
+            <li>
+              If customer refuses to accept accidentally placed order then it
+              causes food wastage.
+            </li>
+            <li>
+              Another major concern is that restaurant owner can not add all
+              ingredients of the dish in application.
+            </li>
+            <li>
+              If customer is shown ingredients then it will help in preventing
+              accidentally placed allergic orders.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="task-analysis">
+        <div class="title collapsible">
+          <h3>Task Analysis</h3>
+        </div>
+        <div class="content">
+          <ul class="text-justify">
+            To create new user profile by app user:
+            <ul>
+              <li>User enters Email-Address.</li>
+              <li>User enters Name.</li>
+              <li>User enters Age.</li>
+              <li>User enters Allergens from predefined list.</li>
+              <li>User enters Password.</li>
+              <li>User clicks on create profile icon.</li>
+            </ul>
+            <br />
+            To add new food item and its ingredients by owner:
+            <ul>
+              <li>User selects the category of food item.</li>
+              <li>
+                User clicks on add food item.
+                <ul>
+                  <li>User clicks on add ingredients icon.</li>
+                  <li>User clicks on finish.</li>
+                </ul>
+              </li>
+              <li>User can add more food items if he wishes.</li>
+            </ul>
+            <br />
+            To find food by app user:
+            <ul>
+              <li>
+                User checks it is his/her lunch or dinner time and plans to
+                order.
+                <ul>
+                  <li>
+                    User checks the notification on mobile phone from app to
+                    initiate his order.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Open the food ordering App.
+                <ul>
+                  <li>Unlock the mobile phone</li>
+                  <li>Open food delivery application.</li>
+                </ul>
+              </li>
+              <li>
+                User checks different food options.
+                <ul>
+                  <li>User search for food using search bar.</li>
+                  <li>
+                    User finds different available restaurants for searched
+                    food.
+                  </li>
+                  <li>User selects the restaurant.</li>
+                  <li>
+                    User finds the food he wants to order and clicks on add
+                    icon.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                User checks ingredients in food.
+                <ul>
+                  <li>User clicks on food item.</li>
+                  <li>Clicks on ingredients icon.</li>
+                </ul>
+              </li>
+              <li>
+                User finds perfect food for his meal after analysis of
+                ingredients of the food he is ordering.
+              </li>
+            </ul>
+            <br />
+            To Place an order after finding Restaurant:
+            <ul>
+              <li>User chooses food from the Menu.</li>
+              <li>
+                Click on add icon.
+                <ul>
+                  <li>
+                    User can see ingredients by clicking on ingredients button.
+                  </li>
+                  <li>
+                    Now if the food does not contain ingredients user is
+                    allergic to it adds it directly to cart.
+                  </li>
+                  <li>
+                    If it contains the ingredients user is allergic then he/she
+                    is asked to ignore or order food.
+                  </li>
+                </ul>
+              </li>
+              <li>User enters the quantity to order.</li>
+              <li>User can add more food if he wants to order.</li>
+              <li>
+                User select desired type of delivery.
+                <ul>
+                  <li>To deliver instantly by paying high delivery charge</li>
+                  <li>For standard delivery.</li>
+                </ul>
+              </li>
+              <li>User sees different payment options suitable to him.</li>
+              <li>User sees estimated time of delivery.</li>
+            </ul>
+            <br />
+            To monitor activity of placed order:
+            <ul>
+              <li>Click on Orders page in application.</li>
+              <li>User checks the valet assigned to them.</li>
+              <li>User sees contact details of the valet when assigned</li>
+              <li>
+                User checks for Estimated time of delivery while it keeps
+                updating continuously.
+              </li>
+            </ul>
+          </ul>
+        </div>
+      </div>
+      <div class="domain-analysis">
+        <div class="title collapsible">
+          <h3>Domain Analysis</h3>
+        </div>
+        <div class="content">
+          <ul class="text-justify">
+            <p>
+              <img
+                src="./img/Domain Analysis.png"
+                class="img--domain-analysis"
+              />
+            </p>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="./index.html"><h3 class="footer">Home</h3></a>
+    </div>
 
-		<script>
-			var collapsible = document.getElementsByClassName('collapsible');
-			for (var i = 0; i < collapsible.length; i++) {
-				collapsible[i].addEventListener('click', function () {
-					var content = this.nextElementSibling;
-					if (content.style.maxHeight) content.style.maxHeight = null;
-					else content.style.maxHeight = content.scrollHeight + 'px';
-				});
-			}
-		</script>
-	</body>
+    <script>
+      var collapsible = document.getElementsByClassName("collapsible");
+      for (var i = 0; i < collapsible.length; i++) {
+        collapsible[i].addEventListener("click", function () {
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) content.style.maxHeight = null;
+          else content.style.maxHeight = content.scrollHeight + "px";
+        });
+      }
+    </script>
+  </body>
 </html>

@@ -1,0 +1,144 @@
+<html>
+  <head>
+    <title>CS615 - Project Group 4</title>
+    <link rel="stylesheet" href="./style/styles.css" />
+  </head>
+
+  <body>
+    <div class="site-container">
+      <a href="./index.html">
+        <h2>Preemptive warning to prevent food allergy</h2>
+      </a>
+      <div class="storyboard-qudseen">
+        <div class="title collapsible">
+          <h3>Trial sketches - Profile creation</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img
+              src="./img/trial-sketch--qudseen.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+          <p>
+            <h4>Good features</h4>
+            <ol>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+            <h4>Bad features</h4>
+            <ol>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </p>
+        </div>
+      </div>
+      <div class="storyboard-andy">
+        <div class="title collapsible">
+          <h3>Trial sketches - Restaurant search</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img
+              src="./img/trial-sketch--andy.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+          <p>
+            <h4>Good features</h4>
+            <ol>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+            <h4>Bad features</h4>
+            <ol>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </p>
+        </div>
+      </div>
+      <div class="storyboard-kunal">
+        <div class="title collapsible">
+          <h3>Trial sketches - Add items to cart</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img
+              src="./img/trial-sketch--kunal.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+          <p>
+            <h4>Good features</h4>
+            <ol>
+              <li>Navigation bar at the bottom to go to different screeens</li>
+              <li>Search bar to search within the menu</li>
+              <li>Shows warning on adding allergen food item</li>
+              <li>Next button on top right to place order</li>
+            </ol>
+            <h4>Bad features</h4>
+            <ol>
+              <li>No button to go back to home page</li>
+              <li>No indication of how many items are added in the menu</li>
+              <li>Buttons on warning modal might be misleading to user.</li>
+            </ol>
+          </p>
+        </div>
+      </div>
+      <div class="storyboard-shreyansh">
+        <div class="title collapsible">
+          <h3>Trial sketches - Order monitoring</h3>
+        </div>
+        <div class="content">
+          <p>
+            <img
+              src="./img/trial-sketch--shreyansh.jpg"
+              class="img--domain-analysis"
+              height="500"
+            />
+          </p>
+          <p>
+            <h4>Good features</h4>
+            <ol>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+            <h4>Bad features</h4>
+            <ol>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ol>
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <a href="./index.html"><h3 class="footer">Home</h3></a>
+    </div>
+
+    <script>
+      var collapsible = document.getElementsByClassName("collapsible");
+      for (var i = 0; i < collapsible.length; i++) {
+        collapsible[i].addEventListener("click", function () {
+          var content = this.nextElementSibling;
+          if (content.style.maxHeight) content.style.maxHeight = null;
+          else content.style.maxHeight = content.scrollHeight + "px";
+        });
+      }
+    </script>
+  </body>
+</html>
