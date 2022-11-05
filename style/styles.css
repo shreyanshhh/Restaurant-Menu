@@ -1,53 +1,73 @@
 body {
-	background-color: #292929;
-	font-family: Helvetica, 'Trebuchet MS', Verdana, sans-serif;
-	color: #fff;
+  background-color: #292929;
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  color: #fff;
 }
 .site-container {
-	width: calc(100% - 3rem);
-	max-width: 1200px;
-	margin-left: auto;
-	margin-right: auto;
+  width: calc(100% - 3rem);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 h2 {
-	text-align: center;
-	color: #bb86fb;
-	font-size: 30px;
+  text-align: center;
+  color: #bb86fb;
+  font-size: 30px;
 }
 h3 {
-	color: #03dac6;
-	margin-bottom: 8px;
-	font-size: 20px;
-	text-decoration: underline;
+  color: #03dac6;
+  margin-bottom: 8px;
+  font-size: 20px;
+  text-decoration: underline;
 }
 p {
-	margin-top: 0rem;
-	font-weight: 500;
+  margin-top: 0rem;
+  font-weight: 500;
 }
 ul {
-	margin-top: 0rem;
+  margin-top: 0rem;
 }
 hr {
-	color: #018786;
+  color: #018786;
 }
 .text-justify {
-	text-align: justify;
-	text-justify: inter-word;
+  text-align: justify;
+  text-justify: inter-word;
 }
 .text-center {
-	text-align: center;
+  text-align: center;
 }
 .collapsible {
-	cursor: pointer;
+  cursor: pointer;
 }
 .content {
-	padding: 0 18px;
-	max-height: 0;
-	overflow: hidden;
-	transition: max-height 0.4s ease-out;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
 }
 .img--domain-analysis {
-	max-width: 100%;
-	height: auto;
-	width: auto;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}
+.prototype-page-title {
+  font-size: 30px;
+}
+.prototype-row {
+  margin-bottom: 3rem;
+}
+.prototype-row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.prototype-column {
+  float: left;
+  width: 50%;
+  /* padding: 5px; */
+}
+.prototype-image--caption {
+  margin-top: 8px;
+  font-size: 24px;
 }
