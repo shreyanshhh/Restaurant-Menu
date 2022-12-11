@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v80_364 {
+  width: 414px;
+  height: 896px;
+  background: rgba(255,53,33,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  overflow: hidden;
+}
+.v80_365 {
+  width: 361px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 24px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v80_366 {
+  width: 24px;
+  height: 24px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 36px;
+  left: 42px;
+  overflow: hidden;
+}
+.v80_367 {
+  width: 6px;
+  height: 12px;
+  background: url("../images/v80_367.png");
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  border: 2px solid rgba(0,0,0,1);
+}
+.v80_375 {
+  width: 20px;
+  height: 20px;
+  background: rgba(53,52,52,0.800000011920929);
+  opacity: 1;
+  position: absolute;
+  top: 192px;
+  left: 66px;
+  border-radius: 50%;
+}
+.v80_376 {
+  width: 20px;
+  height: 20px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 231px;
+  left: 66px;
+  border-radius: 50%;
+}
+.v80_381 {
+  width: 60px;
+  height: 52px;
+  background: url("../images/v80_381.png");
+  opacity: 1;
+  position: absolute;
+  top: 746px;
+  left: 50px;
+  border: 8px solid rgba(0,0,0,1);
+}
+.v80_384 {
+  width: 63px;
+  height: 52px;
+  background: url("../images/v80_384.png");
+  opacity: 1;
+  position: absolute;
+  top: 746px;
+  left: 110px;
+  border: 8px solid rgba(0,0,0,1);
+}
+.v80_373 {
+  width: 534px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 181px;
+  left: 126px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v80_385 {
+  width: 163px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 804px;
+  left: 0px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}

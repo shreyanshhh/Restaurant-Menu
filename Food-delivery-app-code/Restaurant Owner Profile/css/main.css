@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.v80_349 {
+  width: 414px;
+  height: 896px;
+  background: rgba(255,53,33,1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 23px;
+  border-top-right-radius: 23px;
+  border-bottom-left-radius: 23px;
+  border-bottom-right-radius: 23px;
+  overflow: hidden;
+}
+.v80_350 {
+  width: 361px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 15px;
+  left: 36px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v80_351 {
+  width: 24px;
+  height: 24px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 54px;
+  left: 32px;
+  overflow: hidden;
+}
+.v80_352 {
+  width: 6px;
+  height: 12px;
+  background: url("../images/v80_352.png");
+  opacity: 1;
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  border: 2px solid rgba(0,0,0,1);
+}
+.v80_353 {
+  width: 80px;
+  background: url("../images/v80_353.png");
+  opacity: 1;
+  position: absolute;
+  top: 753px;
+  left: 176px;
+  border: 3px solid rgba(0,0,0,1);
+}
+.v80_362 {
+  width: 383px;
+  height: 389px;
+  background: rgba(217,217,217,1);
+  opacity: 1;
+  position: absolute;
+  top: 345px;
+  left: 14px;
+  overflow: hidden;
+}
+.v80_355 {
+  width: 159px;
+  color: rgba(65,29,29,1);
+  position: absolute;
+  top: 501px;
+  left: 123px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v80_354 {
+  width: 283px;
+  height: 45px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 633px;
+  left: 66px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  overflow: hidden;
+}
+.v80_363 {
+  width: 133px;
+  color: rgba(198,198,198,1);
+  position: absolute;
+  top: 639px;
+  left: 148px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v80_360 {
+  width: 342px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 127px;
+  left: 31px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.v80_361 {
+  width: 163px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 772px;
+  left: 133px;
+  font-family: Inter;
+  font-weight: Bold;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
