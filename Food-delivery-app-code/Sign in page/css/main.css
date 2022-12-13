@@ -115,6 +115,7 @@ body {
   border-bottom-right-radius: 30px;
   overflow: hidden;
   font-size: 30px;
+  cursor: pointer;
 }
 .v80_86 {
   width: 111px;

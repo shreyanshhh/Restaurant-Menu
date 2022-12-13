@@ -12,7 +12,48 @@
     <div class="implementation-container">
       <div class="v80_290">
         <span class="v80_291">Let’s complete your profile</span>
-        <div class="v80_292"><div class="v80_293"></div></div>
+        <form action="../Restaurant Search/index.html">
+          <span class="v80_301">Please select the allergens</span>
+          <input type="checkbox" id="nuts" name="nuts" class="v80_304" />
+          <br />
+
+          <input type="checkbox" id="gluten" name="gluten" class="v80_305" />
+          <br />
+
+          <input type="checkbox" id="lactose" name="lactose" class="v80_306" />
+          <br />
+
+          <input type="checkbox" id="wheat" name="wheat" class="v80_308" />
+          <br />
+
+          <input type="checkbox" id="soy" name="soy" class="v80_307" />
+          <br />
+
+          <input
+            type="checkbox"
+            id="crustacean"
+            name="crustacean"
+            class="v80_309"
+          />
+          <br />
+
+          <input type="checkbox" id="fish" name="fish" class="v80_310" />
+          <br />
+
+          <input type="checkbox" id="all" name="all" class="v80_311" />
+          <br />
+
+          <input type="checkbox" id="none" name="none" class="v80_312" />
+          <br />
+
+          <input type="checkbox" id="other" name="other" class="v80_313" />
+          <br />
+
+          <input type="text" class="v80_316" />
+
+          <input class="v80_302" type="submit" value="Save" />
+        </form>
+
         <span class="v80_303">
           NUTS <br />
           GLUTEN <br />
@@ -25,22 +66,16 @@
           NONE <br />
           OTHER :
         </span>
-        <div class="v80_304"></div>
-        <div class="v80_305"></div>
-        <div class="v80_306"></div>
-        <div class="v80_308"></div>
-        <div class="v80_307"></div>
-        <div class="v80_309"></div>
-        <div class="v80_310"></div>
-        <div class="v80_311"></div>
-        <div class="v80_312"></div>
-        <div class="v80_313"></div>
-        <div class="v80_316"></div>
-        <span class="v80_301">Please select the allergens</span>
-        <a href="../Restaurant Search/index.html">
-          <span class="v80_302">Save</span>
+        <a href="../Consumer Address enter/index.html">
+          <div class="v80_292"><div class="v80_293"></div></div>
         </a>
       </div>
     </div>
+    <script>
+      var checkboxes = document.querySelectorAll('input[type="checkbox"]');
+      var checkedOne = Array.prototype.slice
+        .call(checkboxes)
+        .some((x) => x.checked);
+    </script>
   </body>
 </html>

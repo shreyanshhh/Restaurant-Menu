@@ -36,6 +36,8 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_200 {
   width: 361px;
@@ -76,12 +78,14 @@ body {
   opacity: 1;
   position: absolute;
   top: 277px;
-  left: 47px;
+  left: 44px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_204 {
   width: 283px;
@@ -90,12 +94,14 @@ body {
   opacity: 1;
   position: absolute;
   top: 483px;
-  left: 41px;
+  left: 44px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_205 {
   width: 283px;
@@ -110,20 +116,24 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_206 {
-  width: 297px;
+  width: 283px;
   height: 45px;
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 788px;
+  top: 688px;
   left: 44px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_210 {
   width: 178px;
@@ -148,16 +158,16 @@ body {
   border: 2px solid rgba(0, 0, 0, 1);
 }
 .v80_216 {
-  width: 64px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 322px;
-  left: 25px;
+  left: 39px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v80_217 {
   width: 283px;
@@ -237,16 +247,16 @@ body {
   border: 8px solid rgba(0, 0, 0, 1);
 }
 .v80_226 {
-  width: 135px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 644px;
-  left: 13px;
+  top: 544px;
+  left: 39px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v80_227 {
   width: 283px;
@@ -254,13 +264,15 @@ body {
   background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
-  top: 693px;
-  left: 59px;
+  top: 593px;
+  left: 44px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_229 {
   width: 80px;
@@ -272,7 +284,7 @@ body {
   border: 3px solid rgba(0, 0, 0, 1);
 }
 .v80_211 {
-  width: 73px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 112px;
@@ -284,28 +296,28 @@ body {
   text-align: left;
 }
 .v80_212 {
-  width: 97px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 224px;
-  left: 32px;
+  left: 39px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v80_213 {
-  width: 84px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 429px;
-  left: 25px;
+  left: 39px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v80_214 {
   width: 129px;
@@ -320,26 +332,34 @@ body {
   text-align: center;
 }
 .v80_215 {
-  width: 232px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
-  top: 738px;
-  left: 18px;
+  top: 638px;
+  left: 39px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v80_228 {
-  width: 77px;
-  color: rgba(0, 0, 0, 1);
+  width: 100px;
+  height: 39px;
+  background: rgba(255, 255, 255, 1);
+  /* color: rgba(0, 0, 0, 1); */
   position: absolute;
-  top: 857px;
+  top: 757px;
   left: 289px;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   font-family: Inter;
   font-weight: Bold;
-  font-size: 32px;
+  /* font-size: 32px; */
   opacity: 1;
   text-align: center;
+  font-size: 30px;
+  cursor: pointer;
 }

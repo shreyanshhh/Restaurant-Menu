@@ -36,6 +36,8 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_118 {
   width: 361px;
@@ -82,6 +84,8 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_131 {
   width: 283px;
@@ -90,12 +94,14 @@ body {
   opacity: 1;
   position: absolute;
   top: 416px;
-  left: 39px;
+  left: 30px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_133 {
   width: 283px;
@@ -104,12 +110,14 @@ body {
   opacity: 1;
   position: absolute;
   top: 564px;
-  left: 44px;
+  left: 30px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_135 {
   width: 283px;
@@ -118,12 +126,14 @@ body {
   opacity: 1;
   position: absolute;
   top: 710px;
-  left: 39px;
+  left: 30px;
   border-top-left-radius: 30px;
   border-top-right-radius: 30px;
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 24px;
+  padding: 10px;
 }
 .v80_115 {
   width: 326px;
@@ -138,6 +148,8 @@ body {
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
   overflow: hidden;
+  font-size: 30px;
+  cursor: pointer;
 }
 .v80_124 {
   width: 307px;
@@ -152,7 +164,7 @@ body {
   text-align: center;
 }
 .v80_122 {
-  width: 85px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 127px;
@@ -164,50 +176,50 @@ body {
   text-align: left;
 }
 .v80_127 {
-  width: 166px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 243px;
-  left: 32px;
+  left: 36px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v80_130 {
-  width: 162px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 356px;
-  left: 34px;
+  left: 36px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v80_132 {
-  width: 267px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 495px;
-  left: 21px;
+  left: 36px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }
 .v80_134 {
-  width: 300px;
+  width: 100%;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 640px;
-  left: 22px;
+  left: 36px;
   font-family: Inter;
   font-weight: Bold;
   font-size: 32px;
   opacity: 1;
-  text-align: center;
+  text-align: left;
 }

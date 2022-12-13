@@ -177,12 +177,19 @@ body {
 }
 .v80_316 {
   width: 137px;
-  background: url("../images/v80_316.png");
+  height: 60px;
   opacity: 1;
   position: absolute;
-  top: 629px;
+  top: 585px;
   left: 238px;
-  border: 8px solid rgba(0, 0, 0, 1);
+  background-color: transparent;
+  outline: none;
+  outline-style: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 8px solid rgba(0, 0, 0, 1);
+  font-size: 16px;
 }
 .v80_301 {
   width: 327px;
@@ -198,6 +205,7 @@ body {
 }
 .v80_302 {
   width: 163px;
+  height: 42px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 772px;
@@ -207,4 +215,9 @@ body {
   font-size: 32px;
   opacity: 1;
   text-align: center;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  cursor: pointer;
 }
