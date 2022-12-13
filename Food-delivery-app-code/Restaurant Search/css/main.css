@@ -3,15 +3,20 @@
 }
 body {
   font-size: 14px;
+  background-color: #586e75;
+}
+.implementation-container {
+  background-color: #586e75;
+  padding: 10px;
+  padding-top: 20px;
 }
 .v42_2 {
   width: 414px;
   height: 896px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: relative;
-  top: 0px;
-  left: 0px;
+  margin: auto;
   border-top-left-radius: 23px;
   border-top-right-radius: 23px;
   border-bottom-left-radius: 23px;
@@ -21,12 +26,12 @@ body {
 .v42_3 {
   width: 314px;
   height: 35px;
-  background: rgba(217,217,217,0.8999999761581421);
+  background: rgba(217, 217, 217, 0.8999999761581421);
   opacity: 1;
   position: absolute;
   top: 109px;
   left: 43px;
-  border: 1px solid rgba(0,0,0,1);
+  border: 1px solid rgba(0, 0, 0, 1);
   border-top-left-radius: 35px;
   border-top-right-radius: 35px;
   border-bottom-left-radius: 35px;
@@ -41,11 +46,11 @@ body {
   position: absolute;
   top: 117px;
   left: 60px;
-  border: 2px solid rgba(0,0,0,1);
+  border: 2px solid rgba(0, 0, 0, 1);
 }
 .v42_7 {
   width: 162px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 113px;
   left: 93px;
@@ -57,7 +62,7 @@ body {
 }
 .v43_11 {
   width: 120px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 458px;
   left: 120px;
@@ -70,7 +75,7 @@ body {
 .v43_14 {
   width: 6px;
   height: 488px;
-  background: rgba(53,52,52,0.800000011920929);
+  background: rgba(53, 52, 52, 0.800000011920929);
   opacity: 1;
   position: absolute;
   top: 187px;
@@ -109,7 +114,7 @@ body {
 }
 .v46_18 {
   width: 108px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 716px;
   left: 123px;
@@ -134,7 +139,7 @@ body {
 }
 .v47_21 {
   width: 144px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 196px;
   left: 207px;
@@ -147,7 +152,7 @@ body {
 .v62_19 {
   width: 414px;
   height: 79px;
-  background: rgba(250,74,12,1);
+  background: rgba(250, 74, 12, 1);
   opacity: 1;
   position: relative;
   top: 0px;
@@ -156,7 +161,7 @@ body {
 }
 .v62_20 {
   width: 266px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 21px;
   left: 74px;
