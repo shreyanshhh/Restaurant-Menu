@@ -243,7 +243,7 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v34_40 {
+.button-add {
   width: 35px;
   height: 35px;
   background: rgba(250, 74, 12, 1);
@@ -253,7 +253,7 @@ body {
   left: 367px;
   border-radius: 50%;
 }
-.v34_41 {
+.button-add_text {
   width: 14px;
   color: rgba(255, 255, 255, 1);
   position: absolute;
